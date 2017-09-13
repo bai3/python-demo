@@ -1,2 +1,2 @@
 # coding:utf-8
-print '白窒息'
+print('包包包')
