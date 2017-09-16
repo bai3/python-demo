@@ -11,3 +11,19 @@ d = {key1: value1, key2: value2}
 值可以取任何数据类型，但键必须是不变，
 如字符串，数字或元组。
 '''
+
+'''
+修改字典
+'''
+dict = {'Name': 'Runoob',"Age": 7,"Class": 'First'}
+dict['Age'] = 8; #更新Age
+dict['School'] = '菜鸟教程'; #添加信息
+print("dict['Age']:",dict['Age'])
+print("dict[School]:",dict['School'])
+
+'''
+删除字典袁术
+能删单一的元素也能清楚字典，清空只需一项操作clear
+显示删除一个字典用del命令
+执行del操作后 字典就不存在了
+'''
