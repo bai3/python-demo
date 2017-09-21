@@ -55,11 +55,11 @@ print("{}{}".format("hello",",world"))
 # => hello,world
 
 # 可以指定位置
-print("{0}{1}".format("hello",",world1"))
+print("{0}{1}".format("hello", ",world1"))
 # => hello,world1
 
 #设置指定位置
-print("{1}{0}{1}".format("hello ","world "))
+print("{1}{0}{1}".format("hello ", "world "))
 # => world hello world
 
 #示例测试
