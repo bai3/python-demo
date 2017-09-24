@@ -37,11 +37,11 @@ for i in range(5):
     print(i)
 
 # 指定范围
-for i in range(4,12):
+for i in range(4, 12):
     print(i)
 
 # 指定步长
-for i in range(4,12,2):
+for i in range(4, 12, 2):
     print(i)
 
 # break
@@ -54,3 +54,4 @@ for i in range(4,12,2):
 # pass
 # Python pass是空语句，是为了保持程序结构的完整性
 # pass 不做任何事情，一般用作占位语句。
+
