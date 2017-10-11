@@ -27,10 +27,12 @@ it2 = iter(list3)
 # 与普通的函数不用，生成器是一个返回迭代器的函数，
 # 只能进行迭代操作
 # 生成器函数 - 斐波那契数列
+
+
 def fibonacci(n):
     a, b, counter = 0, 1, 0
     while True:
-        if(counter > n):
+        if counter > n:
             return
         yield a
         a, b = b, a+b
