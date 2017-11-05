@@ -1,0 +1,11 @@
+{#header.html#}
+{% load staticfiles %}
+<div class="well">
+    <a href="/" style="text-decoration: none">
+        <img src="{% static 'images/logo.png'%}" alt="logo" style="width: 100px;border-radius: 100px;">
+    </a>
+    <a href="/login" style="display: inline-block;border: 1px solid cornflowerblue;padding: 2px 4px;font-size: 12px;margin-left: 50px">登录</a>
+    <a style="display: inline-block;margin-left: 40px">
+        {% now 'Y/m/d H:m:s a' %}
+    </a>
+</div>

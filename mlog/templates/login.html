@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load staticfiles %}
+    <meta charset="UTF-8">
+    <title>用户登录</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="short icon" href="/static/images/favicon.ico">
+    <link href="https://cdn.bootcss.com/meyer-reset/2.0/reset.min.css" rel="stylesheet">
+    <link href="https://cdn.bootcss.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{% static "css/login.css" %}">
+</head>
+<body class="page-login">
+    <div id="wrapper">
+        <div class="login">
+            <form action="login.html" method="post">{% csrf_token %}
+                <input type="text" placeholder="username"  name="username" autocomplete="off">
+                <input type="password" placeholder="password"  name="password" autocomplete="off">
+                <div class="button-group">
+                    <button type="submit">login</button>
+                    <a onclick="history.back()" class="back">back</a>
+                </div>
+            </form>
+        </div>
+    </div>
+{#    <iframe  frameborder="no" border="0" marginwidth="0" marginheight="0" width=0 height=86 src="//music.163.com/outchain/player?type=2&id=29027453&auto=1&height=66"></iframe>#}
+</body>
+</html>
